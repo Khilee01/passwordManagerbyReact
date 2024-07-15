@@ -334,7 +334,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     font-family: 'Roboto';
     border-bottom: #c3caea solid 1px;
   }
@@ -347,9 +347,9 @@ ul {
   }
 
   .yourPasswords h1 {
-    font-size: 18px; 
+    font-size: 18px;
     color: #ffffff;
-    margin-right: 8px; 
+    margin-right: 8px;
   }
 
   .yourPasswords p {
@@ -363,28 +363,28 @@ ul {
   }
 
   .searchContainer {
-    width: 50%; 
-    height: auto; 
+    width: 50%;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #ffffff;
-    margin-top: 0; 
-    padding: 5px; 
+    margin-top: 0;
+    padding: 5px;
   }
 
   .searchContainer img {
-    height: 20px; 
+    height: 20px;
     border-right: 0.5px solid #64748b;
-    margin-right: 5px; 
+    margin-right: 5px;
   }
 
   .searchContainer input {
     border: none;
-    font-size: 14px; 
+    font-size: 14px;
     background-color: transparent;
     align-self: center;
-    width: 100%; 
+    width: 100%;
   }
   ul {
     display: flex;
@@ -436,6 +436,14 @@ ul {
     justify-content: center;
     align-items: center;
   }
+  .mainInnerContainer {
+    margin: 0;
+    width: 88%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .appLogo {
     align-self: flex-start;
     width: 12vw;
@@ -483,23 +491,13 @@ ul {
     padding: 20px;
     align-self: center;
   }
-  #website {
-    color: #64748b;
-    font-size: 40px;
-    border: none;
-  }
-  #username {
-    color: #64748b;
-    font-size: 40px;
-    border: none;
-  }
-
+  #website,
+  #username,
   #password {
     color: #64748b;
     font-size: 40px;
     border: none;
   }
-
   .addPasswordForm img {
     height: 90px;
     width: 80px;
@@ -594,7 +592,7 @@ ul {
     border: none;
     font-size: 30px;
     margin-left: 20px;
-    background-color: none;
+    background-color: transparent;
     align-self: center;
   }
   ul {
@@ -603,7 +601,6 @@ ul {
     width: 88vw;
     flex-wrap: wrap;
   }
-
   .imgPassword {
     margin-top: 20px;
     display: flex;
