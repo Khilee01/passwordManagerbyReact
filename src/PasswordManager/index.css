@@ -334,7 +334,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center; /* Ensure center alignment */
+    align-items: center; 
     font-family: 'Roboto';
     border-bottom: #c3caea solid 1px;
   }
@@ -347,44 +347,44 @@ ul {
   }
 
   .yourPasswords h1 {
-    font-size: 18px; /* Adjust font size for better fit */
+    font-size: 18px; 
     color: #ffffff;
-    margin-right: 8px; /* Adjust margin for better spacing */
+    margin-right: 8px; 
   }
 
   .yourPasswords p {
-    font-size: 18px; /* Adjust font size for better fit */
+    font-size: 18px;
     border-radius: 10px;
     border: solid 0.5px;
     padding: 2px;
     color: #ffffff;
-    width: 30px; /* Adjust width for better fit */
+    width: 30px;
     text-align: center;
   }
 
   .searchContainer {
-    width: 50%; /* Adjust width for better fit */
-    height: auto; /* Adjust height to fit content */
+    width: 50%; 
+    height: auto; 
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #ffffff;
-    margin-top: 0; /* Remove top margin */
-    padding: 5px; /* Adjust padding for better fit */
+    margin-top: 0; 
+    padding: 5px; 
   }
 
   .searchContainer img {
-    height: 20px; /* Adjust height for better fit */
+    height: 20px; 
     border-right: 0.5px solid #64748b;
-    margin-right: 5px; /* Add margin for better spacing */
+    margin-right: 5px; 
   }
 
   .searchContainer input {
     border: none;
-    font-size: 14px; /* Adjust font size for better fit */
+    font-size: 14px; 
     background-color: transparent;
     align-self: center;
-    width: 100%; /* Adjust width for better fit */
+    width: 100%; 
   }
   ul {
     display: flex;
