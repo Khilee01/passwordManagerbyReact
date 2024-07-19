@@ -254,7 +254,7 @@ ul {
     background-color: #f8fafc;
     border-radius: 2px;
     height: 27px;
-    width: 100%;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -497,6 +497,7 @@ ul {
     color: #64748b;
     font-size: 40px;
     border: none;
+    width: 80%;
   }
   .addPasswordForm img {
     height: 90px;
